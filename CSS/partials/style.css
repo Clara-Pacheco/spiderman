@@ -56,6 +56,24 @@ header {
   height: 40px;
 }
 
+.nav-social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-social svg {
+  cursor: pointer;
+  margin-left: 1.6rem;
+  width: 2.4rem;
+}
+.nav-social svg path, .nav-social svg circle {
+  transition: 0.7s ease;
+}
+.nav-social svg:hover path, .nav-social svg:hover circle {
+  fill: #F02A2F;
+  transform: translate3d(0, -3px, 0);
+}
+
 *,
 *::after,
 *::before {

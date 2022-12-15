@@ -80,3 +80,28 @@ header {
 
 }
 
+.nav-social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  svg {
+
+    cursor: pointer;
+
+    margin-left: 1.6rem;
+    width: 2.4rem;
+
+    path,circle {
+      transition: .7s ease;
+    }
+
+    &:hover {
+      path,circle {
+        fill: $red-light;
+        transform: translate3d(0,-3px,0);
+      }
+    }
+  }
+}
+
