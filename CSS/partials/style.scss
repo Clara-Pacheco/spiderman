@@ -1,3 +1,8 @@
+@import 'colors';
+@import 'animations';
+@import 'layout';
+@import 'menu';
+
 *,
  *::after,
  *::before {
@@ -6,17 +11,16 @@
   box-sizing: border-box;
 }
 
-@import 'partials/colors';
 
 body {
   width: 100%;
   height: 100vh;
   background-color: #1a1a1a;
 
-
-  border: 1px solid red;
 }
 
-@import 'partials/layout';
-@import 'partials/menu';
-@import 'partials/animations';
+img, svg{
+  width: block;
+  width: 100%;
+}
+
