@@ -29,11 +29,13 @@ header {
 
 .nav-link {
   display: inline-block;
+  color: #959698;
   font-size: 1.4rem;
   font-weight: 200;
   letter-spacing: 2px;
   text-transform: uppercase;
   padding: 8px 16px;
+  transition: 0.7s ease;
   position: relative;
 }
 .nav-link::after {
@@ -43,8 +45,15 @@ header {
   top: -40px;
   left: 50%;
   width: 2px;
-  height: 40px;
+  height: 0px;
+  transition: 0.7s ease;
   background: linear-gradient(180deg, rgba(233, 29, 34, 0) 0%, #E91D22 100%);
+}
+.nav-link:hover {
+  color: #F4F7FB;
+}
+.nav-link:hover::after {
+  height: 40px;
 }
 
 *,
