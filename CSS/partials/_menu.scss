@@ -44,5 +44,22 @@ header {
 
   padding: 8px 16px;
 
+  position: relative;
+
+  &::after {
+    content: '';
+    display: block;
+
+    position: absolute; // Ficará absoluto ao pai nav-link
+
+    top: -40px;
+    left: 50%;
+
+    width: 2px;
+    height: 40px;
+    background: linear-gradient(180deg, rgba(233,29,34,0)0%,#E91D22 100%);
+
+  }
+
 }
 

@@ -34,6 +34,17 @@ header {
   letter-spacing: 2px;
   text-transform: uppercase;
   padding: 8px 16px;
+  position: relative;
+}
+.nav-link::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -40px;
+  left: 50%;
+  width: 2px;
+  height: 40px;
+  background: linear-gradient(180deg, rgba(233, 29, 34, 0) 0%, #E91D22 100%);
 }
 
 *,
