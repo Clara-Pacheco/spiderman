@@ -19,6 +19,22 @@ header {
   align-items: center;
 }
 
+.nav-list {
+  list-style: none;
+  display: flex;
+}
+.nav-list li {
+  margin-left: 2.4rem;
+}
+
+.nav-link {
+  display: inline-block;
+  font-size: 1.6rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 8px 16px;
+}
+
 *,
 *::after,
 *::before {
