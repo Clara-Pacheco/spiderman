@@ -5,6 +5,7 @@
   margin: 0;
   box-sizing: border-box;
   font-size: 62.5%;
+  font-family: "Mukta", sans-serif;
 }
 
 body {
@@ -25,7 +26,7 @@ a {
 }
 
 p {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   color: #959698;
   letter-spacing: 1px;
   line-height: 140%;
