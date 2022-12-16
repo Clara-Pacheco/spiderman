@@ -7,8 +7,8 @@
 <img src="https://img.shields.io/github/repo-size/Clara-Pacheco/spiderman?style=for-the-badge"/>&nbsp;&nbsp;&nbsp;
 <img src="https://img.shields.io/github/languages/count/Clara-Pacheco/spiderman?style=for-the-badge"/>
 </p>
+<br>
+<br>
 
 ![site preview](https://github.com/Clara-Pacheco/spiderman/blob/main/video/site-preview.gif)
-<br>
-<br>
-<br>
+
