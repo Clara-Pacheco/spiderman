@@ -39,7 +39,7 @@
 
 .spiderman {
   width: 130%;
-  transform: translate3d(-190px, 0, 0);
+  transform: translate3d(-200px, 0, 0);
 }
 @media screen and (max-width: 960px) {
   .spiderman {
@@ -132,6 +132,9 @@
   overflow: hidden;
   width: 100%;
   height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .bg-video::after {
   content: "";

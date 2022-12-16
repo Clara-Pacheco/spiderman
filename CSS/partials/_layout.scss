@@ -50,7 +50,7 @@
 
 .spiderman {
   width: 130%;
-  transform: translate3d(-190px,0,0);
+  transform: translate3d(-200px,0,0);
 
   @include responsive()
 }
@@ -177,9 +177,9 @@
   width: 100%;
   height: 100%;
 
-  // display: flex;
-  // justify-content: center;
-  // align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   &::after {
       content: '';
