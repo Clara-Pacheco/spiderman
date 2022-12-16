@@ -1,3 +1,14 @@
+@mixin menu-responsive(){
+  @media screen and (max-width:960px) {
+    display: none;
+  }
+}
+@mixin menuBurguer-responsive(){
+  @media screen and (max-width:960px) {
+    display: block;
+  }
+}
+
 header {
 
   width: 100%;
@@ -21,6 +32,7 @@ header {
   justify-content: flex-start;
   align-items: center;
 
+  
 }
 
 
@@ -31,6 +43,8 @@ header {
   li {
     margin-left: 2.4rem;
   }
+
+  @include menu-responsive()
 }
 
 .nav-link {
@@ -79,6 +93,16 @@ header {
 
 }
 
+.burguer-menu {
+  width: 48px;
+  height: 48px;
+  background-color: $white;
+  border-radius: 8px;
+  display: none;
+
+  @include menuBurguer-responsive()
+}
+
 .nav-social {
   display: flex;
   justify-content: center;
@@ -102,5 +126,7 @@ header {
       }
     }
   }
+
+  @include menu-responsive()
 }
 

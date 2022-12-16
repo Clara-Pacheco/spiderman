@@ -1,3 +1,12 @@
+@mixin responsive(){
+  @media screen and (max-width:960px) {
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    transform: translate3d(0,0,0);
+  }
+}
+
 .container {
 
   max-width: 1440px;
@@ -8,7 +17,10 @@
   flex-direction: row;
   align-items: center;
 
-  overflow: hidden;
+  // overflow: hidden;
+  height: 100vh;
+
+  @include responsive()
 
 }
 
@@ -37,6 +49,8 @@
 .spiderman {
   width: 150%;
   transform: translate3d(-170px,0,0);
+
+  @include responsive()
 }
 
 .btn {

@@ -4,6 +4,9 @@
 @import 'menu';
 @import 'spacing';
 
+//Quando for atingido 960px de tamanho de tela, o sass irá
+// começar a ler o conteúdo que está sendo definido aqui:
+
 *,
  *::after,
  *::before {

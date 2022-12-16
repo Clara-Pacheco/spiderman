@@ -5,7 +5,15 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  overflow: hidden;
+  height: 100vh;
+}
+@media screen and (max-width: 960px) {
+  .container {
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    transform: translate3d(0, 0, 0);
+  }
 }
 
 .container-item-1 {
@@ -30,6 +38,14 @@
 .spiderman {
   width: 150%;
   transform: translate3d(-170px, 0, 0);
+}
+@media screen and (max-width: 960px) {
+  .spiderman {
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    transform: translate3d(0, 0, 0);
+  }
 }
 
 .btn {
@@ -131,6 +147,11 @@ header {
 .nav-list li {
   margin-left: 2.4rem;
 }
+@media screen and (max-width: 960px) {
+  .nav-list {
+    display: none;
+  }
+}
 
 .nav-link {
   display: inline-block;
@@ -161,6 +182,19 @@ header {
   height: 40px;
 }
 
+.burguer-menu {
+  width: 48px;
+  height: 48px;
+  background-color: #EDF1F7;
+  border-radius: 8px;
+  display: none;
+}
+@media screen and (max-width: 960px) {
+  .burguer-menu {
+    display: block;
+  }
+}
+
 .nav-social {
   display: flex;
   justify-content: center;
@@ -177,6 +211,11 @@ header {
 .nav-social svg:hover path, .nav-social svg:hover circle {
   fill: #F02A2F;
   transform: translate3d(0, -3px, 0);
+}
+@media screen and (max-width: 960px) {
+  .nav-social {
+    display: none;
+  }
 }
 
 .s-0 {
