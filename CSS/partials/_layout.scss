@@ -4,6 +4,7 @@
     height: auto;
     width: 100%;
     transform: translate3d(0,0,0);
+    overflow: none;
   }
 }
 
@@ -17,7 +18,7 @@
   flex-direction: row;
   align-items: center;
 
-  // overflow: hidden;
+  overflow: hidden;
   height: 100vh;
 
   @include responsive()
@@ -47,8 +48,8 @@
 }
 
 .spiderman {
-  width: 150%;
-  transform: translate3d(-170px,0,0);
+  width: 136%;
+  transform: translate3d(-190px,0,0);
 
   @include responsive()
 }
