@@ -4,7 +4,7 @@
     height: auto;
     width: 100%;
     transform: translate3d(0,0,0);
-    overflow: none;
+    overflow: hidden;
   }
 }
 
@@ -18,13 +18,9 @@
   flex-direction: row;
   align-items: center;
 
-  overflow: hidden;
+  overflow: none;
   height: 100vh;
 
-  position: absolute;
-  top: 0;
-  left: 290px;
-  
 
   @include responsive()
 
@@ -53,8 +49,8 @@
 }
 
 .spiderman {
-  width: 136%;
-  transform: translate3d(-170px,0,0);
+  width: 130%;
+  transform: translate3d(-190px,0,0);
 
   @include responsive()
 }
@@ -181,9 +177,9 @@
   width: 100%;
   height: 100%;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  // display: flex;
+  // justify-content: center;
+  // align-items: center;
 
   &::after {
       content: '';
