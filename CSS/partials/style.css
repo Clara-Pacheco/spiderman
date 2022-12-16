@@ -1,5 +1,4 @@
 .container {
-  border: 1px solid red;
   max-width: 1440px;
   margin: 0 auto;
   padding: 3.6rem 1.6rem;
@@ -11,19 +10,65 @@
 
 .container-item-1 {
   max-width: 57.6rem;
-  border: 1px solid green;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
 
-.container-item-2 {
-  border: 1px solid green;
-}
-
 .spiderman {
   width: 150%;
   transform: translate3d(-170px, 0, 0);
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 32px;
+  border-radius: 3px;
+  transform: skewX(-10deg);
+  transition: 0.7s ease;
+  text-transform: uppercase;
+  position: relative;
+}
+.btn::after {
+  content: "";
+  display: block;
+  width: 30%;
+  height: 70%;
+  opacity: 0;
+  transition: 0.7s ease;
+  border-radius: 3px;
+  border-top: 3px solid white;
+  border-left: 3px solid white;
+  position: absolute;
+  top: -2px;
+  left: -2px;
+}
+.btn::before {
+  content: "";
+  display: block;
+  width: 30%;
+  height: 70%;
+  opacity: 0;
+  transition: 0.7s ease;
+  border-radius: 3px;
+  border-bottom: 3px solid white;
+  border-right: 3px solid white;
+  position: absolute;
+  bottom: -2px;
+  right: -2px;
+}
+.btn:hover {
+  transform: skewX(-10deg) scale(1.05);
+}
+.btn:hover::after {
+  opacity: 1;
+}
+.btn:hover::before {
+  opacity: 1;
+}
+
+.btn-pre-order {
+  background: linear-gradient(267.72deg, #F02A2F 0.88%, #EA1D22 100%);
 }
 
 header {
