@@ -19,12 +19,12 @@ São utilizadas bibliotecas, GSAP para animações, Tilt.js para demais efeitos 
 
 ## 🎈 O que será abordado nesse projeto:
 
-- UI Design,
-- HTML5,
-- CSS3 com SASS,
-- Codificação Responsiva,
-- Codificação Motion, utilizando a biblioteca GSAP,
-- JS vanilla
+- UI Design,<br>
+- HTML5,<br>
+- CSS3 com SASS,<br>
+- Codificação Responsiva,<br>
+- Codificação Motion, utilizando a biblioteca GSAP,<br>
+- JS vanilla<br>
 
 ## 💻 Projeto Preview
 
@@ -34,14 +34,14 @@ O resultado final desse projeto deve ser algo em torno de:
 
 ## 🧪 Tecnologias 
 
-* HTML5,
-* CSS3,
-* Sass
-* Vanilla JS;
-* Motion Design with:
-    ** gsap;
-    ** Tilt JS;
-    ** GreenSock;
+ HTML5,<br>
+ CSS3,<br>
+ Sass<br>
+ Vanilla JS;<br>
+ Motion Design with:<br>
+     gsap;<br>
+     Tilt JS;<br>
+     GreenSock;<br>
 
 ![spiderman](https://github.com/Clara-Pacheco/spiderman/blob/main/images/image%204.png)
 
