@@ -93,15 +93,81 @@ header {
 
 }
 
+.burguerMenu {
+  display: flex;
+}
+
 .burguer-menu {
   width: 48px;
   height: 48px;
-  background-color: $white;
+  // background-color: #333;
   border-radius: 8px;
   display: none;
 
+  position: relative;
+
+    &::after {
+      content: '';
+      width: 70%; // ocupa 70% do pai
+      height: 10%;  
+      // display: block;
+      background-color: $white;
+
+      border-radius: 20px;
+
+      position: absolute;
+      top: 30%;
+      left: 15%;
+
+      transition: 1s ease;
+    }
+    &::before {
+      content: '';
+      width: 40%; // ocupa 70% do pai
+      height: 10%;  
+      display: block;
+      background-color: $white;
+
+      border-radius: 20px;
+
+      position: absolute;
+      top: 60%;
+      left: 45%;
+
+      transition: 1s ease;
+    }
+
   @include menuBurguer-responsive()
 }
+
+#hamburguer:checked ~ label .burguer-menu:after {
+  transform: rotate(225deg);
+
+  width: 70%; 
+  height: 10%;
+
+  top: 37%;
+  left: 42;
+
+ 
+}
+
+#hamburguer:checked ~ label .burguer-menu:before {
+  transform: rotate(-225deg);
+
+  width: 70%; 
+  height: 10%;
+
+  top: 37%;
+  left: 0;
+
+
+}
+
+// Quando o input checkbox estiver 'checked', ele irá pegar o próximo
+// elemento ( ~ sinal de próximo), que é a label, e dentro da 
+// label temos a classe .burguer-menu. Dentro da classe .burguer-menu,
+// queremos modificar realmente os elementos :after e :before.
 
 .nav-social {
   display: flex;

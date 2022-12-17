@@ -261,17 +261,60 @@ header {
   height: 40px;
 }
 
+.burguerMenu {
+  display: flex;
+}
+
 .burguer-menu {
   width: 48px;
   height: 48px;
-  background-color: #EDF1F7;
   border-radius: 8px;
   display: none;
+  position: relative;
+}
+.burguer-menu::after {
+  content: "";
+  width: 70%;
+  height: 10%;
+  background-color: #EDF1F7;
+  border-radius: 20px;
+  position: absolute;
+  top: 30%;
+  left: 15%;
+  transition: 1s ease;
+}
+.burguer-menu::before {
+  content: "";
+  width: 40%;
+  height: 10%;
+  display: block;
+  background-color: #EDF1F7;
+  border-radius: 20px;
+  position: absolute;
+  top: 60%;
+  left: 45%;
+  transition: 1s ease;
 }
 @media screen and (max-width: 960px) {
   .burguer-menu {
     display: block;
   }
+}
+
+#hamburguer:checked ~ label .burguer-menu:after {
+  transform: rotate(225deg);
+  width: 70%;
+  height: 10%;
+  top: 37%;
+  left: 42;
+}
+
+#hamburguer:checked ~ label .burguer-menu:before {
+  transform: rotate(-225deg);
+  width: 70%;
+  height: 10%;
+  top: 37%;
+  left: 0;
 }
 
 .nav-social {
