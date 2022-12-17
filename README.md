@@ -19,12 +19,12 @@ São utilizadas bibliotecas, GSAP para animações, Tilt.js para demais efeitos 
 
 ## 🎈 O que será abordado nesse projeto:
 
-- UI Design,<br>
-- HTML5,<br>
-- CSS3 com SASS,<br>
-- Codificação Responsiva,<br>
-- Codificação Motion, utilizando a biblioteca GSAP,<br>
-- JS vanilla<br>
+ UI Design,<br>
+ HTML5,<br>
+ CSS3 com SASS,<br>
+ Codificação Responsiva,<br>
+ Codificação Motion, utilizando a biblioteca GSAP,<br>
+ JS vanilla<br>
 
 ## 💻 Projeto Preview
 
