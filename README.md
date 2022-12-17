@@ -15,7 +15,7 @@
 Projeto entusiasta com a temática do novo jogo do Spider-man Miles Morales. É desenvolvido tudo do zero, protótipo concept e codificação. 
 São utilizadas bibliotecas, GSAP para animações, Tilt.js para demais efeitos e SASS para o CSS.
 
-![spiderman-logo]()
+![spiderman-logo](https://github.com/Clara-Pacheco/spiderman/blob/main/images/metatag-spider.png)
 
 ## 🎈 O que será abordado nesse projeto:
 
@@ -30,7 +30,7 @@ São utilizadas bibliotecas, GSAP para animações, Tilt.js para demais efeitos 
 
 O resultado final desse projeto deve ser algo em torno de:
 
-![site preview](https://clara-pacheco.github.io/spiderman/)
+![site preview](https://github.com/Clara-Pacheco/spiderman/blob/main/video/site-preview2.gif)
 
 ## 🧪 Tecnologias 
 
@@ -58,5 +58,5 @@ O resultado final desse projeto deve ser algo em torno de:
 ☑️ **Task:** Construir um site utilizando motion design.
 
 Feito com 💜 por Clara 🚀
-</p>
+
 
